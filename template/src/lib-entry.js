@@ -1,6 +1,6 @@
 // example
 // single component
-// export * from './components/???.vue'
+// export {default as default} from './components/Component.vue'
 //
 // multiple components
 // export {default as Component1} from './components/Component1.vue'
