@@ -1,8 +1,9 @@
 const bili = require('bili');
 const fs = require('fs');
-fs.renameSync('../.babelrc', '../.babelrc-back')
+
+fs.renameSync('.babelrc', '.babelrc-back')
 bili.write({
-  input: '../src/lib-entry.js',
+  input: './src/lib-entry.js',
   format: ['cjs','umd','umd-min','es'],
   banner: true,
   plugin: ['vue'],
@@ -10,4 +11,4 @@ bili.write({
   console.log('Done!')
 })
 
-fs.renameSync('../.babelrc-back', '../.babelrc')
+fs.renameSync('.babelrc-back', '.babelrc')
