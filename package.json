@@ -2,7 +2,7 @@
   "name": "vue-cli-template-webpack",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+  "description": "Base on vue webpack template. Integrated bili.js to bundle components to library.",
   "scripts": {
     "docs": "cd docs && gitbook serve",
     "docs:deploy": "bash ./deploy-docs.sh"
