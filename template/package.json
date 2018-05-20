@@ -22,13 +22,16 @@
     {{#lint}}
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}",
     {{/lint}}
-    "build": "node build/build.js"
+    "build-vue": "node build/build.js",
+    "build": "node nuild/build-lib.js"
   },
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}}
   },
   "devDependencies": {
+    "bili": "^3.1.0",
+    "rollup-plugin-vue": "^3.0.0",
     {{#lint}}
     "babel-eslint": "^7.2.3",
     "eslint": "^4.15.0",
