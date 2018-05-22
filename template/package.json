@@ -2,6 +2,8 @@
   "name": "{{ name }}",
   "version": "1.0.0",
   "description": "{{ description }}",
+  "main": "dist/{{ name }}.cjs.js",
+  "module": "dist/{{ name }}.es.js",
   "author": "{{ author }}",
   "private": true,
   "scripts": {
