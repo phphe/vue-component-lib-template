@@ -1,4 +1,4 @@
-# vue-component-lib-template
+# Deprecated: vue-component-lib-template
 Base on [vue webpack template](https://github.com/vuejs-templates/webpack). Integrated bili.js to bundle components to library.
 ## usage
 ```sh
